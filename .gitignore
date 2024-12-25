@@ -1,0 +1,12 @@
+app/.env
+.idea
+.DS_Store
+app/vendor
+
+app/public/storage/*
+!app/public/storage/user-avatar.jpg
+!app/public/storage/events/
+app/public/storage/events/*
+!app/public/storage/events/.gitkeep
+
+nginx/storage
